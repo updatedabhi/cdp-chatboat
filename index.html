@@ -9,18 +9,24 @@
         font-family: Arial, sans-serif;
         background: linear-gradient(135deg, #6a11cb, #2575fc);
         color: white;
-        text-align: center;
+        margin: 0;
         height: 100vh;
+      }
+
+      .container {
+        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        height: 40vh;
       }
+
       h1 {
         font-size: 2rem;
         margin-bottom: 10px;
       }
+
       p {
         font-size: 1.2rem;
         max-width: 600px;
@@ -28,8 +34,10 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to CDP Chatbot</h1>
-    <p>Ask me anything! I'm here to help you with your queries.</p>
+    <div class="container">
+      <h1>Welcome to CDP Chatbot</h1>
+      <p>Ask me anything! I'm here to help you with your queries.</p>
+    </div>
 
     <script type="text/javascript">
       (function (d, t) {
